@@ -1,7 +1,7 @@
 package com.zlshames.minecrafttalismanplugin;
 
-import com.zlshames.minecrafttalismanplugin.commands.RollD6;
 import org.bukkit.plugin.java.JavaPlugin;
+import com.zlshames.minecrafttalismanplugin.commands.RollD6;
 
 public final class MinecraftTalismanPlugin extends JavaPlugin {
 
