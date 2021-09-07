@@ -17,7 +17,6 @@ public class RollD6 implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (!(sender instanceof Player)) return false;
 
-        // Set a default response message
         StringBuilder message = new StringBuilder();
         Boolean success = false;
 
