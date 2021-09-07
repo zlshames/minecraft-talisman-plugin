@@ -1,0 +1,12 @@
+name: MinecraftTalismanPlugin
+version: '${project.version}'
+main: com.zlshames.minecrafttalismanplugin.MinecraftTalismanPlugin
+api-version: 1.17
+description: A custom Minecraft plugin aimed to bring aspects of the Talisman board game, to a virtual world.
+commands:
+  rd6:
+    description: Roll a 6-sided dice
+    usage: /rd6
+  rolld6:
+    description: Roll a 6-sided dice
+    usage: /rolld6
