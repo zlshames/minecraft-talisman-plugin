@@ -10,3 +10,57 @@ commands:
   rolld6:
     description: Roll a 6-sided dice
     usage: /rolld6
+  trade:
+    description: Spawn a trader
+    usage: /trade
+  trade-finished:
+    description: Remove all traders
+    usage: /trade-finished
+  save-location:
+    description: Save your location. Use /save-location <name>
+    usage: /save-location
+  get-location:
+    description: Get a location by name. Use /get-location <name>
+    usage: /get-location
+  get-locations:
+    description: Get all your locations. Use /get-locations
+    usage: /get-locations
+  remove-location:
+    description: Remove one of your locations by name. Use /remove-location <name>
+    usage: /remove-location
+  save-location-global:
+    description: Save your location to a global list. Use /save-location-global <name>
+    usage: /save-location-global
+  get-locations-global:
+    description: Get all the global locations. Use /get-locations-global
+    usage: /get-locations-global
+  remove-location-global:
+    description: Remove a global location by name. Use /remove-location-global <name>
+    usage: /remove-location-global
+  last-death:
+    description: Get the coordinates of your last death
+    usage: /last-death
+  snowball-fight-all:
+    description: Select everyone for a snowball fight
+    usage: /snowball-fight-all
+  snowball-fight-random:
+    description: Select random players for a snowball fight. Use /snowball-fight-select <name1> <name2>
+    usage: /snowball-fight-random
+  snowball-fight-select:
+    description: Select fighters for a snowball fight. Use /snowball-fight-select <names>
+    usage: /snowball-fight-select
+  start-snowball-fight:
+    description: Start the snowball fight
+    usage: /start-snowball-fight
+  stop-snowball-fight:
+    description: Stop the snowball fight
+    usage: /stop-snowball-fight
+  snowball-fight-set-damage:
+    description: Set the damage for a snowball during a snowball fight. Use /snowball-fight-set-damage <damage>
+    usage: /snowball-fight-set-damage
+  snowball-fight-set-health-regen:
+    description: Set whether you want health to be regenerated during a snowball fight. Use /snowball-fight-set-health-regen <boolean>
+    usage: /snowball-fight-set-health-regen
+  snowball-fight-set-prize:
+    description: Set the prize for the snowball fight. Use /snowball-fight-set-prize <item> <amount>
+    usage: /snowball-fight-set-prize
